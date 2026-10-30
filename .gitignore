@@ -14,6 +14,7 @@ dist-ssr
 coverage
 *.local
 .github
+docs
 
 # Editor directories and files
 .vscode/*
