@@ -26,7 +26,7 @@ describe('footer', () => {
 describe('footer GitHub', () => {
   it('links to GitHub', async () => {
     const footer = (await mountWithRouter(App, '/')).find('footer')
-    expect(footer.find('a[href="https://github.com/bishwas76"]').attributes('aria-label')).toBe(
+    expect(footer.find('a[href="https://github.com/bishwasdangol"]').attributes('aria-label')).toBe(
       'GitHub',
     )
   })

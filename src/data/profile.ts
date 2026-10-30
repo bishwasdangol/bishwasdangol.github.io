@@ -15,7 +15,7 @@ export const profile: Profile = {
     'For my MSc in Data Science and Analytics at IOE Pulchowk Campus, I researched explainable deep learning for malaria diagnosis; part of that work is published in the Journal of Advanced College of Engineering and Management (2026).',
     "Next, I'm looking to bring my backend expertise and cloud learning to high-performance, cloud-native applications.",
   ],
-  photo: '/images/profile.jpg',
+  photo: `${import.meta.env.BASE_URL}images/profile.jpg`,
   yearsOfExperience: '4+',
   languages: [
     { name: 'English', level: 'Fluent' },

@@ -24,7 +24,7 @@ All ten projects are on the site's Projects page.
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/bishwas-dangol-5a8871212) · [GitHub](https://github.com/bishwas76) · [GitLab](https://gitlab.com/bishwas76) · [Email](mailto:bishwasdangol1@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bishwas-dangol-5a8871212) · [GitHub](https://github.com/bishwasdangol) · [GitLab](https://gitlab.com/bishwas76) · [Email](mailto:bishwasdangol1@gmail.com)
 
 ## About the site
 
@@ -51,5 +51,7 @@ Other commands:
 - `pnpm test:unit` runs the tests.
 - `pnpm lint` runs the linters.
 - `pnpm build` builds the site into `dist/`. You can upload `dist/` to any static host.
+
+Pushing to `main` deploys the site to GitHub Pages through `.github/workflows/deploy.yml`.
 
 Links like `/projects/tt-bot` load directly on most hosts. The build writes a `404.html` copy of the app for GitHub and GitLab Pages, and `public/_redirects` handles Netlify-style hosts.

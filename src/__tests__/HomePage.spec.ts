@@ -59,6 +59,6 @@ describe('HomePage photo', () => {
 describe('HomePage GitHub', () => {
   it('links to GitHub from contact', async () => {
     const contact = (await mountWithRouter(HomePage)).find('#contact')
-    expect(contact.find('a[href="https://github.com/bishwas76"]').exists()).toBe(true)
+    expect(contact.find('a[href="https://github.com/bishwasdangol"]').exists()).toBe(true)
   })
 })
